@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>login1</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle btn btn-primary" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="fa fa-bars fa-1x"></span>
+            </button>
+        </div>
+        <a class="navbar-brand navbar-collapse collapse">
+            <i class="fa fa-codepen fa-1x"> 彩虹订票</i></a>
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"> 首页</a> </li>
+                <li><a href="inquiry.html"> 查票</a></li>
+                <li><a href="#"> 订票</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="resign.html"><span class="glyphicon glyphicon-user"></span>注册</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="login">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <form class="form-horizontal" >
+                    <span class="heading">用户登录</span>
+                    <div class="form-group">
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="用户名或电子邮件">
+                        <i class="fa fa-user"></i>
+                    </div>
+                    <div class="form-group help">
+                        <input type="password" class="form-control" id="inputPassword3" placeholder="密　码" >
+                        <i class="fa fa-lock"></i>
+                        <a href="#" class="fa fa-question-circle"></a>
+                    </div>
+
+                    <!--<div class="form-group ">-->
+                        <!--<input type="text" class="form-control yanzhengma" id="inputText3" placeholder="验证码">-->
+                        <!--<i class="fa fa-in"></i>-->
+                        <!--<span>-->
+                    <!--<canvas  class="pic" id="canvas" width="120" height="45"></canvas>-->
+                    <!--<a href="#" id="changeImg">看不清，换一张</a>-->
+                <!--</span>-->
+                    <!--</div>-->
+
+
+                    <div class="form-group">
+                        <div class="main-checkbox">
+                            <input type="checkbox" value="None" id="checkbox1" name="check"/>
+                            <label for="checkbox1"></label>
+                        </div>
+                        <span class="text">记住密码</span>
+                        <button type="submit" class="btn btn-default" onclick="denglu()" ><a href="inquiry.html">登录</a></button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <canvas class="canvas-star"></canvas>
+
+</div>
+
+
+
+    <script src="js/login1.js"></script>
+    <script src="js/ajax.js"></script>
+    <script src="js/star.js"></script>
+    <script>
+        starBg.init('.canvas-star');
+        login.init()
+    </script>
+
+</body>
+
+</html>

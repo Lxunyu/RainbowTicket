@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8fd47820-d9a7-4581-af10-ed91341ba90e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>id</find>
+      <find>用户</find>
+      <find>ch</find>
+      <find>国内</find>
+      <find>star</find>
+      <find>id-f</find>
+      <find>img</find>
+      <find>startd</find>
+      <find>component</find>
+    </findStrings>
+  </component>
+  <component name="ProjectId" id="1UptKUAFPyJLtxwCxIyMqlrDSUc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\software\webstrom2018-2-4\daima\xxx" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\software\webstrom2018-2-4\daima\xxx" />
+      <recent name="D:\software\webstrom2018-2-4\daima\xxx\img" />
+      <recent name="D:\software\webstrom2018-2-4\daima\xxx\js" />
+      <recent name="D:\software\webstrom2018-2-4\daima\xxx\css" />
+      <recent name="D:\software\webstrom2018-2-4\daima\xxx\json" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8fd47820-d9a7-4581-af10-ed91341ba90e" name="Default Changelist" comment="" />
+      <created>1575619858685</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575619858685</updated>
+      <workItem from="1575619860216" duration="17140000" />
+      <workItem from="1575728813268" duration="2802000" />
+      <workItem from="1575802647413" duration="23292000" />
+      <workItem from="1575878157014" duration="10037000" />
+      <workItem from="1576057077977" duration="8048000" />
+      <workItem from="1576081806644" duration="6677000" />
+      <workItem from="1576117721772" duration="14995000" />
+      <workItem from="1576211549552" duration="944000" />
+      <workItem from="1576216100123" duration="5651000" />
+      <workItem from="1576223657327" duration="626000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="365" y="265" key="com.intellij.ide.util.TipDialog" timestamp="1576223658503">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="365" y="265" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576223658503" />
+    <state x="329" y="201" key="run.anything.popup" timestamp="1576217263969">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="329" y="201" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576217263969" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/js/login1.js</url>
+          <line>47</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

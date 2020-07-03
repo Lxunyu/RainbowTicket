@@ -1,0 +1,184 @@
+.header{
+    height: 40px;
+    margin-bottom: 50px;
+}
+.header .dropdown{
+    margin-left: 50px;
+    float: left;
+}
+.header .form-inline
+{
+    float: left;
+}
+.center_right_above{
+    padding-left: 50px;
+}
+.center_right_above .glyphicon-chevron-left{
+    float: left;
+    padding-top: 10px;
+    margin: 0px;
+}
+.center_right_above .nav-tabs{
+    float: left;
+    width: 700px;
+    margin-right: 0px;
+}
+
+.glyphicon-chevron-right
+{
+    padding-top: 10px;
+}
+.container .center_left{
+    background-color:pink;
+    width: 20%;
+    height: 870px;
+    float: left;
+    background: url("../img/timg (3).jpg");
+}
+/*.container.img{*/
+/*    width: 20%;*/
+/*    height: 870px;*/
+/*    border: 1px;*/
+/*}*/
+
+.center_right_above{
+    margin-left: 0px;
+    width: 73%;
+    float: left;
+}
+.center_right_below_above{
+    float: left;
+    width: 910px;
+    height: 50px;
+    margin-top: 0px;
+}
+.center_right_below{
+    width: 910px;
+    height: 720px;
+    margin-top:10px;
+    float: left;
+   padding-left: 20px;
+    background-color: beige;
+
+}
+
+.lead{
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size:15px;
+}
+.address{
+    font-family: "Adobe 楷体 Std R";
+    float: left;
+    width: 200px;
+    height: 40px;
+    margin-left: 10px;
+}
+.depart-address{
+    float: left;
+    font-family: "Adobe 楷体 Std R";
+    font-size: 30px;
+    color: darkgrey;
+    font-weight: bold;
+}
+.arrive-address{
+    float: right;
+    font-family: "Adobe 楷体 Std R";
+    font-size: 30px;
+    color: darkgrey;
+    font-weight: bold;
+    margin-top:0px ;
+}
+.arrow-small{
+    font-size: x-large;
+    font-weight: bolder;
+    width: 20px;
+    float: left;
+    margin-left: 15px;
+    margin-top: 0px;
+}
+
+.flight-box{
+    box-sizing: content-box;
+    width: content-box;
+    height: 50px;
+    background-color:white;
+}
+.flight-row{
+    margin-top: 10px;
+    background-color: white;
+}
+.flight-airline {
+    height: content-box;
+    float: left;
+}
+.airline-name{
+    float: left;
+    font-family: "Adobe 楷体 Std R";
+    color: darkgrey;
+    margin-top: 15px;
+    margin-left: 50px;
+}
+.flight-detail{
+    height: 30px;
+    float: left;
+    margin-top: 9px;
+    margin-left: 120px;
+}
+.flight-price{
+    float: left;
+    margin-left:150px;
+    margin-top: 15px;
+}
+.flight-book{
+    font-family: "Adobe 黑体 Std R" ;
+    float: right;
+    margin-right: 20px;
+    margin-top: 12px;
+    /*background-color: #ffb70d;*/
+    color: coral;
+    border-radius: 20px;
+}
+.book{
+    /*background-color: #ffb70d;
+    border-radius: 20px;*/
+}
+
+
+.depart-box {
+    float: left;
+    margin-top: 5px;
+}
+.arrow-box {
+    float:left;
+    margin-left: 60px;
+    margin-bottom: 0px;
+}
+.arrow {
+    height: 40px;
+}
+.arrive-box{
+    float: left;
+    margin-left: 70px;
+    margin-top: 5px;
+}
+
+
+.center_right .glyphicon-chevron-left{
+    height: 42px;
+    padding-top: 10px;
+    display: inline-block;
+    float: left;
+}
+.center_right .container {
+    width: 730px;
+    float: left;
+}
+.center_right .glyphicon-chevron-right{
+    height: 42px;
+    padding-top: 10px;
+    float: left;
+}

@@ -1,0 +1,30 @@
+.container-air{
+    width: 600px;
+}
+
+.container-air .train-loc .col-5{
+    display: inline-block;
+    width: 150px;
+    float: left;
+    font-size: 25px;
+}
+
+/*.search-card{*/
+    /*background:url("../img/a'a.png");*/
+/*}*/
+.search-card .train-loc .text-right{
+    float: right;
+}
+.search-card .train-loc .img{
+    margin-left: 40px;
+    width: 230px;
+    height: 110px;
+    float: left;
+}
+.search-card .train-time .train-time-wrap{
+    font-size: 25px;
+}
+.container .navbar-collapse .navbar-nav li,
+.container .navbar-brand .fa-codepen{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}

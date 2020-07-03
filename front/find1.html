@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>find</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/find1.css">
+</head>
+<body>
+<script src="jquery-3.4.1.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle btn btn-primary" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="fa fa-bars fa-1x"></span>
+            </button>
+        </div>
+        <a class="navbar-brand navbar-collapse collapse">
+            <i class="fa fa-codepen fa-1x"> 彩虹订票</i></a>
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"> 首页</a> </li>
+                <li><a href="inquiry.html"> 查票</a></li>
+
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="resign.html"><span class="glyphicon glyphicon-user"></span>注册</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="container header">
+    <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            单程
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="#">单程</a></li>
+            <li><a href="#">双程</a></li>
+        </ul>
+    </div>
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="exampleInputName2"></label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder="广州">
+            <span class="glyphicon glyphicon-resize-horizontal" aria-hidden="true"></span>
+        </div>
+        <div class="form-group">
+            <label for="exampleInputName2"></label>
+            <input type="text" class="form-control" id="exampleInputName3" placeholder="杭州">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputName2"></label>
+            <input type="text" class="form-control " id="exampleInputName4" placeholder="2019-12-14">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleInputEmail2"></label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder="返回日期">
+        </div>
+        <button type="submit" class="btn btn-default">重新搜索</button>
+    </form>
+</div>
+
+
+
+<div class="container">
+
+    <div class="center_left" >
+
+    </div>
+
+
+    <div class="center_right_above">
+        <div>
+            <a href="#"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+        </div>
+        <div class="container contxt">
+            <ul class="nav nav-tabs">
+                <li role="presentation"><a href="#">12-12周四</a></li>
+                <li role="presentation"><a href="#">12-13周五</a></li>
+                <li role="presentation"class="active"><a href="#">12-14周六</a></li>
+                <li role="presentation"><a href="#">12-16周日</a></li>
+                <li role="presentation"><a href="#">12-17周一</a></li>
+                <li role="presentation"><a href="#">12-18周二</a></li>
+                <li role="presentation"><a href="#">12-19周三</a></li>
+            </ul>
+            <a href="#"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+    <div class="center_right_below_above">
+        <div class="lead">
+            去程：
+        </div>
+        <div class="address">
+            <span class="depart-address">广州</span>
+            <div class="arrow-small">→</div>
+            <span class="arrive-address">杭州</span>
+        </div>
+    </div>
+
+    <div class="center_right_below">
+        <div class="flight-box">
+                <div class="flight-row">
+                    <div class="airline-name">
+                        <span class="airline">春秋航空</span>
+                    </div>
+                    <div class="flight-detail">
+                        <div class="depart-box">
+                            <div class="depart">17:55</div>
+                        </div>
+                        <div class="arrow-box">
+                            <img class="arrow" src="img/arrow.png"></div>
+                        <div class="arrive-box">
+                            <div class="arrive">21:55</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="flight-price">
+                    $949起
+                </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票655
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">春秋航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">09:00</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">21:45</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $1900起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票123
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">韩亚航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">12:40</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">22:00</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $1846起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票900
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">首都航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">13:45</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">21:05</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $1926起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票599
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">东方航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">07:30</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">14:45</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $1957起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票400
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">南方航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">9:30</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">     20:25</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $2548起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票584
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">首都航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">12:30</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">21:05</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $1859起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票200
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">吉祥航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">12:50</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">21:45</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $1956起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票744
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">首都航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">11:40</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">21:05</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $1826起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票388
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">春秋航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">12:50</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">21:45</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $1929起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票933
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">大韩航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">13:15</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">21:35</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $2439起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票293
+                </button>
+            </div>
+        </div>
+        <div class="flight-box">
+            <div class="flight-row">
+                <div class="airline-name">
+                    <span class="airline">南方航空</span>
+                </div>
+                <div class="flight-detail">
+                    <div class="depart-box">
+                        <div class="depart">10:40</div>
+                    </div>
+                    <div class="arrow-box">
+                        <img class="arrow" src="img/arrow.png"></div>
+                    <div class="arrive-box">
+                        <div class="arrive">19:45</div>
+                    </div>
+                </div>
+            </div>
+            <div class="flight-price">
+                $2548起
+            </div>
+            <div class="flight-book">
+                <button id="book">
+                    余票78
+                </button>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+
+</body>
+</html>

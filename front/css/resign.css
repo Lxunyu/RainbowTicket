@@ -1,0 +1,27 @@
+.form-horizontal .form-group .code
+{
+    font-family:Arial;
+    font-style:italic;
+    color:blue;
+    font-size:30px;
+    border:0;
+    padding:1px 3px;
+    letter-spacing:3px;
+    font-weight:bolder;
+    float:left;
+    cursor:pointer;
+    width:150px;
+    height:50px;
+    line-height:60px;
+    text-align:center;
+    vertical-align:middle;
+    background-color: pink;
+    margin-top: 10px;
+
+}
+.form-horizontal .form-group .aaa {
+    width: 400px;
+    height: 100px;
+    padding-top: 40px;
+
+}

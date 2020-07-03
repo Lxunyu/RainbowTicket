@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>list</title>
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+<script src="https://code.jquery.com/jquery-1.12.4.js" integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous"></script>
+<script src="bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle btn btn-primary" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                <span class="fa fa-bars fa-1x"></span>
+            </button>
+        </div>
+        <a class="navbar-brand navbar-collapse collapse">
+            <i class="fa fa-codepen fa-1x"> 彩虹订票</i></a>
+        <div class="collapse navbar-collapse navbar-responsive-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="index.html"> 首页</a> </li>
+                <li><a href="inquiry.html"> 查票</a></li>
+                <li><a href="#"> 订票</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="resign.html"><span class="glyphicon glyphicon-user"></span>注册</a></li>
+                <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> 登录</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <form class="form-inline">
+        <div class="form-group">
+            <label for="exampleInputName2">姓名</label>
+            <input type="text" class="form-control" id="exampleInputName2" placeholder=" ">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail2">邮箱</label>
+            <input type="email" class="form-control" id="exampleInputEmail2" placeholder=" ">
+        </div>
+        <button type="submit" class="btn btn-default">查询</button>
+    </form>
+    <div class="btn_choose">
+        <button type="button" class="btn btn-primary">添加联系人</button>
+        <button type="button" class="btn btn-primary">删除选中</button>
+    </div>
+</div>
+
+<div class="container">
+    <table border="1" class="table table-bordered table-hover">
+       <tr class="first">
+            <th><input type="checkbox"></th>
+           <th>id</th>
+           <th>姓名</th>
+           <th>性别</th>
+           <th>年龄</th>
+           <th>邮箱</th>
+           <th>操作</th>
+       </tr>
+        <tr>
+            <th><input type="checkbox"></th>
+            <td>aa</td>
+            <td>aa</td>
+            <td>aa</td>
+            <td>aa</td>
+            <td>aa</td>
+            <td>aa</td>
+        </tr>
+        <tr>
+            <th><input type="checkbox"></th>
+            <td>bb</td>
+            <td>bb</td>
+            <td>bb</td>
+            <td>bb</td>
+            <td>bb</td>
+            <td>bb</td>
+        </tr>
+        <tr>
+            <th><input type="checkbox"></th>
+            <td>cc</td>
+            <td>cc</td>
+            <td>cc</td>
+            <td>cc</td>
+            <td>cc</td>
+            <td>cc</td>
+        </tr>
+    </table>
+</div>
+<div class="container">
+    <nav aria-label="Page navigation">
+        <ul class="pagination">
+            <li>
+                <a href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">5</a></li>
+            <li>
+                <a href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+            <span style="font-size: 25px">共16条记录，共6页</span>
+        </ul>
+    </nav>
+
+</div>
+
+<script src="js/login/login.js"></script>
+</body>
+</html>
